@@ -46,7 +46,7 @@ chown -R $username:$username /home/$username
 apt install feh kitty rofi picom thunar nitrogen x11-xserver-utils unzip wget pipewire wireplumber pavucontrol build-essential libx11-dev libxft-dev libxinerama-dev libx11-xcb-dev libxcb-res0-dev zoxide xdg-utils -y
 
 # Installing Other less important Programs
-apt install flameshot psmisc lxappearance papirus-icon-theme fonts-noto-color-emoji lightdm -y
+apt install flameshot psmisc lxappearance papirus-icon-theme fonts-noto-color-emoji -y
 
 # Download Nordic Theme
 cd /usr/share/themes/
