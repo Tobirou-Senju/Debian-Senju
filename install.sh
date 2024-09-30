@@ -9,6 +9,7 @@ fi
 username=$(id -u -n 1000)
 builddir=$(pwd)
 
+
 # Install Terminus Fonts
 sudo apt install fonts-terminus
 
