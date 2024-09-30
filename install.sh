@@ -87,7 +87,6 @@ sudo -u $username systemctl --user enable wireplumber.service
 # Beautiful bash
 git clone https://github.com/Tobirou-Senju/Senju-MyBash.git
 cd Senju-MyBash
-chmod +x setup.sh
 bash setup.sh
 cd $builddir
 
