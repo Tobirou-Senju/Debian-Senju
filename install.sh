@@ -85,7 +85,7 @@ systemctl set-default graphical.target
 sudo -u $username systemctl --user enable wireplumber.service
 
 # Beautiful bash
-git clone https://github.com/Tobirou-Senju/mybash.git
+git clone https://github.com/ChrisTitusTech/mybash
 cd mybash
 bash setup.sh
 cd $builddir
