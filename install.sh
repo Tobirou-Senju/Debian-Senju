@@ -79,6 +79,7 @@ apt update
 apt install brave-browser
 
 # Enable graphical login and change target from CLI to GUI
+systemctl enable lightdm
 systemctl set-default graphical.target
 
 # Enable wireplumber audio service
